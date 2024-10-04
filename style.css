@@ -1,6 +1,6 @@
-img {
-    min-width: 50px;
-	max-width: 80px;
-    border-radius: 50%;
-    
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
+
