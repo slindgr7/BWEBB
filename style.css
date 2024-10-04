@@ -4,3 +4,77 @@
 	padding: 0;
 }
 
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.logo {
+	min-width: 10px;
+	max-width: 70px;
+	border-radius: 50%;
+}
+
+.ticket {
+	width: 25px;
+	position: absolute;
+	left: 90%;
+	top: 33%;
+
+}
+
+header {
+	position: relative;
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 0.5rem;
+
+
+}
+
+
+.logo-text {
+	margin-left: 1rem;
+
+	p:nth-child(1) {
+		font-weight: 800;
+	}
+
+	p:nth-child(2) {
+		font-size: 12px;
+	}
+}
+
+
+
+
+
+
+
+
+nav {
+	border: 1px solid black;
+	
+	
+	ul {
+	list-style: none;
+	display: flex;
+	}
+}
+
+
+
+
+
+.section-1 {
+	border: 1px solid black;
+}
+
+.section-2 {
+	border: 1px solid black;
+}
+
+.section-3 {
+	border: 1px solid black;
+}
