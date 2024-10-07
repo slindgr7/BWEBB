@@ -5,32 +5,35 @@
 }
 
 body {
+	width: 100vw;
+	background-image: url(img/background.jpg);
+	background-size: cover;
 	font-family: "Poppins", sans-serif;
 }
+
+/* Header */
 
 .logo {
 	min-width: 10px;
 	max-width: 70px;
 	border-radius: 50%;
+	box-shadow: 5px 4px 8px 0px #000000a6;
 }
 
 .ticket {
 	width: 25px;
 	position: absolute;
 	left: 90%;
-	top: 33%;
+	top: 35%;
 
 }
 
 header {
 	position: relative;
-	border: 1px solid black;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	padding: 0.5rem;
-
-
 }
 
 
@@ -38,43 +41,66 @@ header {
 	margin-left: 1rem;
 
 	p:nth-child(1) {
-		font-weight: 800;
+		font-weight: 700;
 	}
 
 	p:nth-child(2) {
-		font-size: 12px;
+		font-size: 0.6rem;
+		color: white;
 	}
+	
 }
 
 
-
-
+/* Header */
 
 
 
 
 nav {
-	border: 1px solid black;
-	
+	border: 1px solid rgba(0, 0, 0, 0.282);
+	background-color: rgba(0, 0, 0, 0.197);
 	
 	ul {
 	list-style: none;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
 	}
+
+	li a {
+		list-style: none;
+		text-decoration: none;
+		color: rgb(239, 230, 230);
+        font-size: 0.7rem;
+        font-weight: 500;
+        text-transform: uppercase;
+
+	}
+
 }
-
-
-
 
 
 .section-1 {
-	border: 1px solid black;
+	border: 1px solid rgba(255, 255, 255, 0.284);
+    margin-top: 2rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	background-color: #ffffff40;
+	gap: 1rem;
+}
+
+
+.konferens {
+	width: 100%;
+	max-width: 800px;
+	
 }
 
 .section-2 {
-	border: 1px solid black;
-}
-
-.section-3 {
-	border: 1px solid black;
+	display: flex;
+	justify-content: center;
 }
