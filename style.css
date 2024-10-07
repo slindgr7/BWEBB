@@ -14,6 +14,19 @@ body {
 
 /* Header */
 
+
+header {
+	background-image: url(img/background.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1rem;
+
+}
+
+
 .logo {
 	width: 4.3rem;
 	border-radius: 50%;
@@ -26,17 +39,6 @@ body {
 	position: absolute;
 	left: 90%;
 	top: 35%;
-
-}
-
-header {
-	background-image: url(img/background.jpg);
-	background-size: cover;
-	position: relative;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	padding: 1rem;
 
 }
 
@@ -94,6 +96,7 @@ nav {
 	}
 
 }
+
 
 
 .section-1 {
@@ -154,14 +157,32 @@ nav {
 	}
 }
 
-
-.konferens {
-	width: 100%;
-	max-width: 1000px;
-	
-}
-
 .section-2 {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 3rem;
+
+	.konferens {
+		width: 100%;
+		max-width: 1000px;
+		
+	}
+
 }
+
+
+.section-3 {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	text-align: center;
+	gap: 1.5rem;
+
+		h2 {
+			font-size: ;
+		}
+
+}
+
+
+
