@@ -2,6 +2,9 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-size: 0.9rem;
+	font-size: clamp(0.9rem, 0.7630434782608696rem + 0.7608695652173914vw, 1.6rem);
+	
 }
 
 body {
@@ -12,10 +15,10 @@ body {
 /* Header */
 
 .logo {
-	min-width: 10px;
-	max-width: 70px;
+	width: 4.3rem;
 	border-radius: 50%;
 	box-shadow: 5px 4px 8px 0px #000000a6;
+	padding: 0.3rem;
 }
 
 .ticket {
@@ -33,7 +36,8 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	padding: 0.5rem;
+	padding: 1rem;
+
 }
 
 
@@ -41,8 +45,13 @@ header {
 	margin-left: 1rem;
 	color: rgb(248, 235, 235);
 
-	p:nth-child(1) {
-		font-weight: 700;
+	p:first-of-type {
+		font-weight: 500;
+		font-size: 1.1rem;
+	}
+
+	.period {
+		font-size: 2rem;
 	}
 
 	p:nth-child(2) {
@@ -59,23 +68,28 @@ header {
 
 
 nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 	background-color: rgb(32, 31, 31);
+	min-width: max-content;
 	
 	ul {
 	list-style: none;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+	
 
 	}
 
 	li a {
+		display: flex;
 		list-style: none;
 		text-decoration: none;
 		color: rgb(248, 235, 235);
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         font-weight: 500;
         text-transform: uppercase;
+		padding: 0.5rem;
 
 	}
 
@@ -89,28 +103,39 @@ nav {
 	text-align: center;
     flex-direction: column;
     align-items: center;
-	gap: 1rem;
+	gap: 1.5rem;
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	p {
+		font-size: 0.7rem;
+	}
 
 	div {
 		width:90%;
+		max-width: 30rem;
 		display: block;
 
 		a {
 			text-decoration: none;
 			font-size: 0.8rem;
 			color: black;
-			font-weight: 500;
+			font-weight: 600;
 			letter-spacing: 0.1rem;
 		}
 		
+
 		p:first-of-type {
 			border: 1px solid #0000003b;
 			border-radius: 0.5rem;
 			padding: 0.5rem;
-			margin-bottom: 1rem;
+			margin-bottom: 1.5rem;
             background-color: rgb(255 186 126);
             box-shadow: 2px 2px 12px 0px #000000a8;
 		}
+
 
 		p:nth-child(2) {
 			border: 1px solid #0000003b;
@@ -118,6 +143,10 @@ nav {
 			padding: 0.5rem;
 			background-color: rgba(128, 128, 128, 0.298);
 			box-shadow: 2px 2px 12px 0px #000000a8;
+
+			.year {
+				font-size: 0.6rem;
+			}
 		
 		}
 
@@ -128,7 +157,7 @@ nav {
 
 .konferens {
 	width: 100%;
-	max-width: 800px;
+	max-width: 1000px;
 	
 }
 
