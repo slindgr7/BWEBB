@@ -100,6 +100,7 @@ nav {
 
 
 .section-1 {
+	background-color: rgba(245, 245, 220, 0.324);
 	border: 1px solid rgba(255, 255, 255, 0.284);
     padding: 3rem;
     display: flex;
@@ -134,8 +135,8 @@ nav {
 			border: 1px solid #0000003b;
 			border-radius: 0.5rem;
 			padding: 0.5rem;
-			margin-bottom: 1.5rem;
-            background-color: rgb(255 186 126);
+			margin-bottom: 0.8rem;
+            background-color: rgb(143 126 255 / 85%);
             box-shadow: 2px 2px 12px 0px #000000a8;
 		}
 
@@ -177,9 +178,43 @@ nav {
 	width: fit-content;
 	text-align: center;
 	gap: 1.5rem;
+	padding: 1.5rem;
+	margin-bottom: 2rem;
 
 		h2 {
-			font-size: ;
+			font-size: 1.8rem;
+			
+
+			p {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 0.7rem;
+			margin-top: 1.8rem;
+			margin-bottom: 1.3rem;
+			
+		
+			span {
+                width: fit-content;
+                padding: 0.5rem 2rem 0.5rem 2rem;
+                background-color:rgba(143, 126, 255, 0.402);
+                border-radius: 2rem;
+                letter-spacing: 0.2rem;
+                font-size: 0.8rem;
+				font-weight: 600;
+
+			}
+		}
+
+		}
+
+
+		p {
+			letter-spacing: 1px;
+
+			span {
+				font-weight: 700;
+			}
 		}
 
 }
