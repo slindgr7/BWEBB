@@ -274,15 +274,41 @@ footer {
 		flex-wrap: wrap;
 		justify-content: space-between;
 		padding: 2rem;
-		border-top: 1px solid rgba(255, 255, 255, 0.688);
-		border-bottom: 1px solid rgba(255, 255, 255, 0.688);
+		border-top: 1px solid rgba(255, 255, 255, 0.200);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.200);
+		margin-bottom: 3rem;
 
 		p{
-			font-size: 2rem;
+			font-size: 1.8rem;
 			font-weight: 100;
 		}
 	}
+	
+	.footer-2 {
+		display: flex;
+		justify-content: flex-start;
+		margin-bottom: 2rem;
+		gap: 1.5rem;
+		padding-left: 2rem;
 
+		div {
+			display: flex;
+			flex-direction: column;
+		}
+
+
+		h3 {
+			font-size: 0.8rem;
+			font-weight: 500;
+			margin-bottom: 1rem;
+		}
+
+		p {
+			font-size: 0.7rem;
+			color: rgba(255, 255, 255, 0.442);
+		}
+
+	}
 
 }
 
