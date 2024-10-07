@@ -6,8 +6,6 @@
 
 body {
 	width: 100vw;
-	background-image: url(img/background.jpg);
-	background-size: cover;
 	font-family: "Poppins", sans-serif;
 }
 
@@ -29,6 +27,8 @@ body {
 }
 
 header {
+	background-image: url(img/background.jpg);
+	background-size: cover;
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
@@ -39,6 +39,7 @@ header {
 
 .logo-text {
 	margin-left: 1rem;
+	color: rgb(248, 235, 235);
 
 	p:nth-child(1) {
 		font-weight: 700;
@@ -46,7 +47,7 @@ header {
 
 	p:nth-child(2) {
 		font-size: 0.6rem;
-		color: white;
+		color: rgb(248, 235, 235);
 	}
 	
 }
@@ -58,8 +59,7 @@ header {
 
 
 nav {
-	border: 1px solid rgba(0, 0, 0, 0.282);
-	background-color: rgba(0, 0, 0, 0.197);
+	background-color: rgb(32, 31, 31);
 	
 	ul {
 	list-style: none;
@@ -72,7 +72,7 @@ nav {
 	li a {
 		list-style: none;
 		text-decoration: none;
-		color: rgb(239, 230, 230);
+		color: rgb(248, 235, 235);
         font-size: 0.7rem;
         font-weight: 500;
         text-transform: uppercase;
@@ -84,13 +84,45 @@ nav {
 
 .section-1 {
 	border: 1px solid rgba(255, 255, 255, 0.284);
-    margin-top: 2rem;
-    padding: 4rem;
+    padding: 3rem;
     display: flex;
+	text-align: center;
     flex-direction: column;
     align-items: center;
-	background-color: #ffffff40;
 	gap: 1rem;
+
+	div {
+		width:90%;
+		display: block;
+
+		a {
+			text-decoration: none;
+			font-size: 0.8rem;
+			color: black;
+			font-weight: 500;
+			letter-spacing: 0.1rem;
+		}
+		
+		p:first-of-type {
+			border: 1px solid #0000003b;
+			border-radius: 0.5rem;
+			padding: 0.5rem;
+			margin-bottom: 1rem;
+            background-color: rgb(255 186 126);
+            box-shadow: 2px 2px 12px 0px #000000a8;
+		}
+
+		p:nth-child(2) {
+			border: 1px solid #0000003b;
+			border-radius: 0.5rem;
+			padding: 0.5rem;
+			background-color: rgba(128, 128, 128, 0.298);
+			box-shadow: 2px 2px 12px 0px #000000a8;
+		
+		}
+
+
+	}
 }
 
 
