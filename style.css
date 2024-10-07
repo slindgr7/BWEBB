@@ -264,10 +264,27 @@ nav {
 	}
 }
 
+footer {
+	background-color: black;
+	color: white;
+	padding: 2rem 0.5rem 2rem 0.5rem;
+
+	.footer-1 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 2rem;
+		border-top: 1px solid rgba(255, 255, 255, 0.688);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.688);
+
+		p{
+			font-size: 2rem;
+			font-weight: 100;
+		}
+	}
 
 
-
-
+}
 
 
 
