@@ -261,7 +261,7 @@ nav {
 footer {
 	background-color: black;
 	color: white;
-	padding: 2rem;
+	padding: 3rem;
 
 	.footer-1 {
 		display: flex;
@@ -270,26 +270,22 @@ footer {
 		border-top: 1px solid rgba(255, 255, 255, 0.200);
 		border-bottom: 1px solid rgba(255, 255, 255, 0.200);
 		margin-bottom: 3rem;
-		padding: 1.5rem 0rem 1.5rem 0rem;
+		padding: 2rem 0rem 2rem 0rem;
 
 		p{
-			font-size: 1.8rem;
+			font-size: 1.6rem;
 			font-weight: 100;
 		}
 	}
 	
 	.footer-2 {
 		display: flex;
-		justify-content: flex-start;
 		flex-wrap: wrap;
+		justify-content: space-between;
 		margin-bottom: 2rem;
-		gap: 1.5rem;
-		margin-bottom: 3rem;
+		gap: 3rem;
+		margin-bottom: 4rem;
 
-		div {
-			display: flex;
-			flex-direction: column;
-		}
 
 
 		h3 {
@@ -306,11 +302,12 @@ footer {
 		.socials {
 			width: 2.5rem;
 			padding: 0.5rem;
-
-			:hover {
-				background-color: rgba(172, 87, 172, 0.471);
-			}
 		}
+
+		.socials:hover {
+			border: 1px solid white;
+		}
+
 
 	}
 
@@ -318,7 +315,7 @@ footer {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		align-items: center;
+		align-items: end;
 
 		h2 {
 			font-size: 3rem;
