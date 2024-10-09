@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B-WEBB</title>
+  </head>
+  <body>
+    <main>
+      <form action="#">
+        <fieldset>
+          <p>Personlig information</p>
+          <label for="name">Förnamn <span>*</span></label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Anna"
+            required
+          />
+
+          <label for="lastname">Efternamn <span>*</span></label>
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Karlsson"
+            required
+          />
+
+          <label for="email">E-mail <span>*</span></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Anna.karlsson@gmail.com"
+            required
+          />
+
+          <label for="tel">Mobilnr <span>*</span></label>
+          <input
+            type="number"
+            name="tel"
+            id="tel"
+            placeholder="+46 73 956 47 42"
+          />
+        </fieldset>
+
+        <fieldset>
+          <label for="days">Välj dina dagar</label>
+          <select id="days" name="days" required>
+            <option value="">Välj ett dagspass</option>
+            <option value="Dagspass 1">Dagspass 1</option>
+            <option value="Dagspass 2">Dagspass 2</option>
+            <option value="Dagspass 3">Dagspass 3</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <label for="food">Välj din maträtt</label>
+          <select id="food" name="food" required>
+            <option value="">Välj din maträtt</option>
+            <option value="meat">Kött</option>
+            <option value="fish">Fisk</option>
+            <option value="vegetarian">Vegetarisk</option>
+            <option value="vegan">Vegansk</option>
+          </select>
+
+          <label for="other">Övriga önskemål, allergier etc.</label>
+          <input
+            type="text"
+            name="other"
+            id="other"
+            placeholder="Jag är allergisk mot: ...."
+          />
+        </fieldset>
+
+        <button type="submit">Skicka</button>
+      </form>
+    </main>
+  </body>
+</html>
