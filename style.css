@@ -440,28 +440,6 @@ footer {
 	}
 
 
-	section:nth-child(2) {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 2rem;
-		padding: 2rem;
-
-
-	div {
-		display:flex;
-		flex-direction: column;
-		align-items: center;
-		border: 1px solid black;
-		padding: 2rem;
-		gap: 2rem;
-
-		h2 {
-			font-size: 1.2rem;
-		}
-	}
-
-
-
 
 }
 
@@ -492,7 +470,7 @@ div {
 
 }
 
-}
+
 
 
 /* eventspeakers.html */
@@ -501,8 +479,82 @@ div {
 
 .background {
 	background-image: url(img/background.jpg);
+	background-color: rgba(0, 0, 0, 0.243);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	
+	main {
+		background-color: rgba(0, 0, 0, 0.582);
+		display: flex;
+		justify-content: center;
+		padding: 3rem;
+	}
+
+	form {
+		background-color: rgba(0, 0, 0, 0.56);
+		color: white;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		border: 2px solid white;
+		border-radius: 0.5rem;
+		max-width: fit-content;
+		
+		p {
+			font-size: 1.2rem;
+			align-self: center;
+			margin-bottom: 1rem;
+		}
+
+		.field {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			border:none;
+			padding: 4rem;
+
+			&.one {
+				gap: 0.5rem;
+			}
+		}
+
+	
+
+
+
+
+		input {
+			display: flex;
+			flex-wrap: wrap;
+			border-radius: 0.5rem;
+			padding: 0.5rem;
+			
+		}
+
+
+		label {
+			display: flex;
+		}
+
+
+		select {
+			padding: 0.3rem;
+			border-radius: 0.3rem;
+		}
+
+		button {
+			margin: 0rem 2rem 2rem 2rem;
+			padding: 0.5rem;
+		}
+
+	}
+	
+	
 
 
 
 }
+
+
 
