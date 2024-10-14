@@ -40,9 +40,9 @@
       </ul>
     </nav>
     <main>
+      <h1>Personlig information</h1>
       <form action="#">
-        <fieldset class="field one">
-          <p>Personlig information</p>
+        <fieldset class="field">
           <label for="name">Förnamn <span>*</span></label>
           <input
             type="text"
@@ -78,10 +78,10 @@
             placeholder="+46 73 956 47 42"
           />
         </fieldset>
-        <fieldset class="field">
+        <fieldset class="field two">
           <label for="days">Välj dina dagar</label>
           <select id="days" name="days" required>
-            <option value="">Välj ett dagspass</option>
+            <option value="">Välj</option>
             <option value="Dagspass 1">
               Dagspass 1.<span> 5,000 :-</span>
             </option>
@@ -93,7 +93,7 @@
 
           <label for="food">Välj din maträtt</label>
           <select id="food" name="food" required>
-            <option value="">Välj din maträtt</option>
+            <option value="">Välj</option>
             <option value="meat">Kött</option>
             <option value="fish">Fisk</option>
             <option value="vegetarian">Vegetarisk</option>
@@ -108,8 +108,16 @@
             placeholder="Jag är allergisk mot: ...."
           />
         </fieldset>
-
-        <button type="submit">Skicka</button>
+        <fieldset class="field three">
+          <legend>BOKA</legend>
+          <div>
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms"
+              >Jag godkänner villkor <a href="#"> Bättre Webb</a></label
+            >
+          </div>
+          <button type="submit">Skicka</button>
+        </fieldset>
       </form>
     </main>
     <footer>
