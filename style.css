@@ -23,6 +23,7 @@ header {
 	flex-wrap: wrap;
 	align-items: center;
 	padding: 3rem;
+	min-width: 300px;
 
 }
 
@@ -44,7 +45,7 @@ header {
 .logo-text {
 	
 	margin-left: 1rem;
-	color: rgb(248, 235, 235);
+	color: white;
 
 	p:first-of-type {
 		font-weight: 500;
@@ -85,9 +86,9 @@ nav {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	background-color: rgb(32, 31, 31);
-	min-width: max-content;
-	
+	background-color: rgb(32, 31, 31); 
+	min-width: 300px;
+
 	ul {
 	list-style: none;
 	display: flex;
@@ -128,7 +129,8 @@ main {
     flex-direction: column;
     align-items: center;
 	gap: 1.7rem;
-	margin-bottom: 3rem;
+	margin-top: 3rem;
+	margin-bottom: 4rem;
 	max-width: 800px;
 
 	h1 {
@@ -199,19 +201,38 @@ main {
 }
 
 .section-2 {
-	box-shadow: 10px 0px 14px 0px #000000c4;
-	padding: 2rem ;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 2rem;
-	max-width: 1000px;
+	box-shadow: 10px 0px 14px 0px #0000006e;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+
 	.konferens {
 		width: 100%;
-		max-width: 1000px;
+		max-width: 900px;
 		border-radius: 0.5rem;
 		
 	}
 
+}
+
+.divider1 {
+	display: flex;
+	align-self: flex-start;
+	height: 0.3rem;
+	margin: 5rem;
+	width: 20rem;
+	background-color:rgba(143, 126, 255, 0.276);
+}
+
+.divider2 {
+	display: flex;
+	align-self: flex-end;
+	margin: 5rem;
+	height: 0.3rem;
+	width: 20rem;
+	background-color:rgba(143, 126, 255, 0.276);
 }
 
 
@@ -266,16 +287,15 @@ main {
 }
 
 .section-4 {
-	box-shadow: 10px 0px 14px 0px #000000c4;
-	padding: 2rem ;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 3rem;
-	max-width: 1000px;
+	box-shadow: 10px 0px 14px 0px #0000006e;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
 
 	.gothenburg {
 		width: 100%;
-		max-width: 1000px;
 		border-radius: 0.5rem;
 		
 	}
@@ -284,34 +304,11 @@ main {
 }
 
 
-
-
-.divider {
-	width: 7rem;
-	height: 0.3rem;
-	background-color: rgba(143, 126, 255, 0.547);
-	position: relative;
-	animation: move-horizontal 5s infinite linear;
-	margin-bottom: 3rem;
-}
-
-@keyframes move-horizontal {
-	0% {
-		left: 0;
-	}
-	50% {
-		left: 100%;
-		transform: translateX(-100%);
-	}
-	70% {
-		left: 0;
-	}
-}
-
 footer {
 	background-color: black;
 	color: white;
 	padding: 3rem;
+	min-width: 300px;
 
 	.footer-1 {
 		display: flex;
@@ -420,7 +417,7 @@ footer {
 		flex-direction: column;
 		flex-wrap: wrap ;
 		gap: 1rem;
-		border: 1px solid rgba(0, 0, 0, 0.345);
+		border-bottom: 5px solid rgba(0, 0, 0, 0.345);
 		padding: 2rem;
 		margin-top: 3rem;
 		margin-bottom: 4rem;
@@ -475,8 +472,9 @@ div {
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-	border: 1px solid rgba(0, 0, 0, 0.327);
-	box-shadow: 6px 6px 6px 0px #00000052;
+	background-color: rgba(0, 0, 0, 0.024);
+	border: 1px solid rgba(0, 0, 0, 0.185);
+	box-shadow: 6px 6px 6px 0px #0000003a;
 	border-radius: 1rem;
 	padding: 3rem;
 	gap: 2rem;
@@ -491,6 +489,7 @@ div {
 	}
 
 	p {
+		font-size: 1rem;
 		letter-spacing: 1px;
 		color: rgba(0, 0, 0, 0.738);
 	}
@@ -520,6 +519,7 @@ div {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		min-width: 300px;
 
 		h1 {
 			font-size: 2rem;
