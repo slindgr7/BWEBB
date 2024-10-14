@@ -163,7 +163,7 @@ main {
 			padding: 0.5rem;
 			margin-bottom: 0.8rem;
             background-color: rgb(143 126 255 / 85%);
-            box-shadow: 2px 2px 12px 0px #000000a8;
+            box-shadow: 2px 2px 12px 0px #00000078;
 			transition: all 1s ease-in-out;
 			max-width: 27rem;
 
@@ -180,7 +180,7 @@ main {
 			border-radius: 0.5rem;
 			padding: 0.5rem;
 			background-color: rgba(128, 128, 128, 0.298);
-			box-shadow: 2px 2px 12px 0px #000000a8;
+			box-shadow: 2px 2px 12px 0px #00000078;
 			transition: all 1s ease-in-out;
 			max-width: 27rem;
 
@@ -221,17 +221,19 @@ main {
 	display: flex;
 	align-self: flex-start;
 	height: 0.3rem;
-	margin: 5rem;
-	width: 20rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	width: 11rem;
 	background-color:rgba(143, 126, 255, 0.276);
 }
 
 .divider2 {
 	display: flex;
 	align-self: flex-end;
-	margin: 5rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 	height: 0.3rem;
-	width: 20rem;
+	width: 11rem;
 	background-color:rgba(143, 126, 255, 0.276);
 }
 
@@ -502,8 +504,6 @@ div {
 
 /* eventspeakers.html */
 
-
-
 /* form.html */
 
 .background {
@@ -630,5 +630,79 @@ div {
 
 }
 
+/* form.html */
+
+/* ticket.html */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 4rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+
+	h2 {
+		font-size: 1.3rem;
+		text-align: center;
+		letter-spacing: 1px;
+	}
+
+	ul {
+		color: rgba(0, 0, 0, 0.712);
+		margin-left: 1rem;
+	}
+
+	span {
+		font-size: 0.8rem;
+		color:rgba(143, 126, 255, 0.897);
+	}
+
+	select {
+		padding: 0.3rem;
+		border-radius: 0.5rem;
+	}
+
+	p {
+		text-align: center;
+		color: rgba(0, 0, 0, 0.69);
+	}
+	
+	div a {
+		display: flex;
+		justify-content: center;
+		text-decoration: none;
+		color: black;
+		padding: 0.5rem;
+		border-radius: 0.5rem;
+		background-color: rgb(143 126 255 / 85%);
+		box-shadow: 2px 2px 12px 0px #0000004a;
+		transition: all 1s ease-in-out;
+		max-width: 27rem;
+
+		&:hover {
+			background-color: rgba(255, 255, 255, 0.47);
+			transform: scale(1.1);
+			cursor: pointer;
+		}
+		
+	}
+
+
+	section {
+			display: flex;
+			flex-direction: column;
+			border-radius: 1rem;
+			padding: 3rem;
+			gap: 1rem;
+			background-color: rgba(0, 0, 0, 0.024);
+			border: 1px solid rgba(0, 0, 0, 0.185);
+			box-shadow: 6px 6px 6px 0px #0000003a;
+			max-width: 800px;
+	}
+
+
+}
 
 
