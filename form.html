@@ -70,18 +70,18 @@
             required
           />
 
-          <label for="tel">Mobilnr <span>*</span></label>
+          <label for="tel">Mobilnr</label>
           <input
-            type="number"
+            type="phone"
             name="tel"
             id="tel"
             placeholder="+46 73 956 47 42"
           />
         </fieldset>
         <fieldset class="field two">
-          <label for="days">Välj dina dagar</label>
+          <label for="days">Välj dina dagar <span>*</span></label>
           <select id="days" name="days" required>
-            <option value="">Välj</option>
+            <option value="" disabled selected>Välj</option>
             <option value="Dagspass 1">
               Dagspass 1.<span> 5,000 :-</span>
             </option>
@@ -94,9 +94,9 @@
             </option>
           </select>
 
-          <label for="food">Välj din maträtt</label>
+          <label for="food">Välj din maträtt <span>*</span></label>
           <select id="food" name="food" required>
-            <option value="">Välj</option>
+            <option value="" disabled selected>Välj</option>
             <option value="meat">Kött</option>
             <option value="fish">Fisk</option>
             <option value="vegetarian">Vegetarisk</option>
