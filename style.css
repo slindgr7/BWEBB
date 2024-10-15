@@ -32,9 +32,9 @@ header {
 .logo {
 	width: 4.3rem;
 	border-radius: 50%;
-	box-shadow: 5px 4px 8px 0px #000000a6;
+	box-shadow: 5px 4px 8px 0px #00000086;
 	padding: 0.2rem;
-	opacity: 97%;
+	
 	transition: all 0.7s ease-out;
 }
 
@@ -75,7 +75,7 @@ header {
 	border-radius: 50%;
 	width: 3rem;
 	padding: 0.5rem;
-	top: 39%;
+	top: 30%;
 	left: 86%;
 }
 
