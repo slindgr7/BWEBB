@@ -375,7 +375,6 @@ footer {
 			width: 1.7rem;
 			border: 1px solid rgba(255, 255, 255, 0.46);
 			padding: 0.3rem;
-			border-radius: 0.5rem;
 			margin-left: 0.3rem;
 		}
 
@@ -802,9 +801,6 @@ div {
 		
 	}
 
-	}
-
-
 	section {
 		display:grid;
 		gap: 1rem;
@@ -817,4 +813,7 @@ div {
 
 	}
 
-}
+
+	}
+
+
