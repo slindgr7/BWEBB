@@ -208,7 +208,7 @@ main {
 	margin-top: 5rem;
 	margin-bottom: 5rem;
 	width: 11rem;
-	background-color:rgba(143, 126, 255, 0.276);
+	background-color:rgba(143, 126, 255, 0.402);
 }
 
 .divider2 {
@@ -218,7 +218,7 @@ main {
 	margin-bottom: 5rem;
 	height: 0.3rem;
 	width: 11rem;
-	background-color:rgba(143, 126, 255, 0.276);
+	background-color:rgba(143, 126, 255, 0.402);
 }
 
 
@@ -229,7 +229,6 @@ main {
 	text-align: center;
 	gap: 1.5rem;
 	padding: 1.5rem;
-	margin-bottom: 4rem;
 	max-width: 800px;
 
 		h2 {
@@ -781,25 +780,28 @@ div {
 
 	h2 {
 		text-align: center;
-		font-size: 1.2rem;
-		margin-bottom: 3rem;
+		font-size: 1rem;
 		letter-spacing: 2px;
+
+		span {
+			font-size: 1rem;
+			color: rgba(0, 0, 0, 0.741);
+		}
+
 	}
 
-	p {
+	h3 {
 		font-weight: 600;
 		color: rgba(96, 81, 193, 0.897);
-		text-align: center;
+		margin-top: 2.5rem;
 	}
 
-	ul {
-		color: rgba(0, 0, 0, 0.863);
-		font-size: 1.2rem;
-		margin-bottom: 2.2rem;
+
+	p:nth-of-type(odd) {
+		font-weight: 500;
 		
-		li:first-of-type {
-			font-weight: 500;
-		}
+	}
+
 	}
 
 
@@ -809,7 +811,7 @@ div {
 		background-color: rgba(0, 0, 0, 0.024);
 		box-shadow: 6px 6px 6px 0px #0000000d;
 		border-radius: 1rem;
-		padding: 2rem;
+		padding: 3rem;
 		margin-bottom: 3rem;
 		max-width: 600px;
 
