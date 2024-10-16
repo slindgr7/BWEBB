@@ -28,7 +28,7 @@ header {
 		a {
 			text-decoration: none;
 			font-size: 2.8rem;
-			color: black;
+			color: rgb(10, 10, 10);
 			transition: all 1.5s ease-in-out;
 			
 			&:hover {
@@ -45,8 +45,8 @@ header {
 		}
 
 		p {
-			font-size: 0.8rem;
-			letter-spacing: 1px;
+			font-size: 0.7rem;
+			letter-spacing: 2px;
 		}
 
 	
@@ -290,8 +290,8 @@ main {
 
 
 footer {
-	background-color: black;
-	color: white;
+	background-color: rgb(21, 21, 21);
+	color: rgb(241, 241, 241);
 	padding: 3rem;
 
 	.footer-1 {
@@ -331,7 +331,7 @@ footer {
 
 		p {
 			font-size: 0.7rem;
-			color: rgba(255, 255, 255, 0.442);
+			color: rgb(217, 217, 217);
 		}
 
 		.socials {
@@ -718,7 +718,7 @@ div {
 
 	span {
 		font-size: 0.8rem;
-		color:rgba(143, 126, 255, 0.897);
+		color:rgb(102, 89, 187);
 	}
 
 	select {
