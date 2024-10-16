@@ -87,6 +87,9 @@ header {
 
 
 .ticket {
+	position: sticky;
+	top: 40%;
+	right: 50%;
 	width: 1.75rem;
 	transition: all 0.7s ease-in-out;
 }
@@ -96,12 +99,11 @@ header {
 	border-radius: 50%;
 	width: 3rem;
 	padding: 0.5rem;
-	top: 30%;
-	left: 86%;
 }
 
 
 main {
+	height: fit-content;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
