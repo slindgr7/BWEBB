@@ -15,58 +15,79 @@ body {
 
 /* index.html */
 
-
 header {
-	background-color: rgba(121, 24, 240, 0.424) ;
-	position: relative;
 	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	padding-left: 1.8rem;
+	justify-content: space-around;
+	border-bottom: 1px solid rgb(82, 81, 81);
+	padding: 1rem;
 
-}
+	h1 {
+		
 
+		a {
+			text-decoration: none;
+			font-size: 2.8rem;
+			color: black;
+			transition: all 1.5s ease-in-out;
+			
+			&:hover {
+				color: rgba(125, 69, 228, 0.089);
+				text-decoration: underline 2px black;
+				font-size: 3rem;
+				
+			}
+			
+			
+			span {
+				font-size: 3rem;
+			}
+		}
 
-.logo {
-	width: 4.3rem;
-	border-radius: 50%;
-	box-shadow: 5px 4px 8px 0px #00000086;
-	padding: 0.2rem;
+		p {
+			font-size: 0.8rem;
+			letter-spacing: 1px;
+		}
+
 	
-	transition: all 0.7s ease-out;
-}
 
-.logo:hover {
-	transform: scale(1.1);
-	padding: 0.8rem;
-}
-
-.logo-text {
-	
-	margin-left: 1rem;
-	color: rgb(6, 6, 6);
-
-	p:first-of-type {
-		font-weight: 500;
-		font-size: 1.3rem;
 	}
 
 
-	p:nth-child(2) {
-		font-size: 0.8rem;
-		color: rgb(0, 0, 0);
-	}
 
+	nav { 
+		padding: 1rem;
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 3rem;
+			justify-content: space-evenly;
+			
+			li {
+				list-style: none;
+
+				a {
+					text-decoration: none;
+					font-size: 0.8rem;
+					color: black;
+					transition: all 1s ease-in-out;
+				
+					&:hover {
+						text-decoration: underline 1px black;
+						font-size: 1rem;
+					}
+				}
+			}
+
+		}
+	}
 }
+
+
 
 
 .ticket {
 	width: 1.75rem;
-	position: absolute;
-	left: 88%;
-	top: 35%;
 	transition: all 0.7s ease-in-out;
 }
 
@@ -79,41 +100,6 @@ header {
 	left: 86%;
 }
 
-	
-
-
-
-nav {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	background-color: rgb(32, 31, 31); 
-
-	ul {
-	list-style: none;
-	display: flex;
-	
-
-	}
-
-	li a {
-		display: flex;
-		list-style: none;
-		text-decoration: none;
-		color: rgb(248, 235, 235);
-        font-size: 0.8rem;
-        font-weight: 500;
-        text-transform: uppercase;
-		padding: 0.5rem 0.7rem 0.5rem 0.7rem;
-
-	}
-
-	li a:hover {
-		color: rgba(146, 121, 206, 0.713);
-	}
-
-
-}
 
 main {
 	display: flex;
@@ -378,7 +364,8 @@ footer {
 		}
 
 		a {
-			font-size: 0.5rem;
+			font-size: 1rem;
+			color: white;
 		}
 
 		.arrow {
@@ -646,7 +633,7 @@ div {
 
 		}
 
-		
+
 
 
 
