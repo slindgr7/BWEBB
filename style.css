@@ -671,12 +671,20 @@ div {
 
 .heading {
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		justify-self: center;
 		font-size: 2rem ;
 		font-weight: 400;
 		margin-top: 2rem;
 		text-shadow: 20px 14px 8px rgba(121, 24, 240, 0.143);
+
+		a {
+			font-size: 0.7rem;
+			margin-top: 1rem;
+		}
 }
+
 
 .container {
 	display: flex;
