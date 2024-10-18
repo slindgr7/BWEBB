@@ -210,7 +210,7 @@ main {
 	width: fit-content;
 	text-align: center;
 	gap: 1.5rem;
-	padding: 1.5rem;
+	padding: 1rem;
 	max-width: 800px;
 	
 
@@ -222,11 +222,10 @@ main {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			gap: 0.7rem;
 			margin-top: 1.8rem;
-			margin-bottom: 1.3rem;
-			background-color:rgba(143, 126, 255, 0.402);
-			border-radius: 50%;
+			margin-bottom: 1rem;
+			background-color: rgba(143, 126, 255, 0.256);
+			border-radius: 0.5rem;
 			
 			span {
                 width: fit-content;
@@ -790,7 +789,7 @@ div {
 
 /* ticket.html */
 
-/*event-info.html */
+/* event-info.html */
 
 .schedule {
 	display: flex;
@@ -852,4 +851,4 @@ div {
 
 	}
 
-
+/* event-info.html */
