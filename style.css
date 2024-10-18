@@ -177,6 +177,7 @@ main {
 	max-width: 900px;
 	border-radius: 0.5rem;
 	box-shadow: 10px 0px 14px 0px #0000006e;
+	margin-bottom: 2rem;
 		
 }
 
@@ -379,6 +380,7 @@ footer {
 	flex-direction: column;
 	text-align: center;
 	margin-bottom: 2rem;
+	margin-top: 1rem;
 		
 	section {
 		max-width: 900px;
@@ -396,7 +398,7 @@ footer {
 		h1 {
 		font-size: 2rem ;
 		font-weight: 400;
-		margin-bottom: 2rem;
+		text-shadow: 20px 14px 8px rgba(121, 24, 240, 0.151);
 
 		span {
 			font-weight: 500;
@@ -411,6 +413,7 @@ footer {
 			background-color: rgba(143, 126, 255, 0.237);
 			border-radius: 0.5rem;
 			padding: 4rem;
+			margin-top: 1rem;
 	}
 
 	:nth-child(3) {
@@ -516,7 +519,6 @@ div {
 			&.two {
 				display: flex;
 				flex-direction: column;
-				gap: 0.4rem;
 
 				input:last-child {
 					padding: 2rem;
