@@ -32,7 +32,7 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="form-container">
       <h1>Personlig information</h1>
       <form action="#">
         <fieldset class="field">
@@ -73,20 +73,27 @@
           />
         </fieldset>
         <fieldset class="field two">
-          <label for="days">Välj dina dagar <span>*</span></label>
-          <select id="days" name="days" required>
-            <option value="" disabled selected>Välj</option>
-            <option value="Dagspass 1">
-              Dagspass 1.<span> 5,000 :-</span>
-            </option>
-            <option value="Dagspass 2">Dagspass 2. <span>8,000:-</span></option>
-            <option value="Dagspass 3">
-              Dagspass 3. <span>13,000:-</span>
-            </option>
-            <option value="Alla 3-dagar">
-              Alla 3-dagar <span>26,000:-</span>
-            </option>
-          </select>
+          <legend>Välj dina dagar <span>*</span></legend>
+
+          <label>
+            <input type="checkbox" name="days" value="Dagspass 1" required />
+            Dagspass 1 <span>5,000 :-</span>
+          </label>
+
+          <label>
+            <input type="checkbox" name="days" value="Dagspass 2" />
+            Dagspass 2 <span>8,000 :-</span>
+          </label>
+
+          <label>
+            <input type="checkbox" name="days" value="Dagspass 3" />
+            Dagspass 3 <span>13,000 :-</span>
+          </label>
+
+          <label>
+            <input type="checkbox" name="days" value="Alla 3-dagar" />
+            Alla 3-dagar <span>22,000 :-</span>
+          </label>
 
           <label for="food">Välj din maträtt <span>*</span></label>
           <select id="food" name="food" required>

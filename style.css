@@ -497,7 +497,7 @@ div {
 
 /* form.html */
 
-	main {
+.form-container {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -537,13 +537,16 @@ div {
 			
 
 			&.two {
-				
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
 				input:last-child {
 					padding: 2rem;
 				}
 
 				label {
-					margin: 0 0 0.2rem 0.2rem;
+					
 
 				}
 			}
@@ -657,7 +660,7 @@ div {
 			border-left: 5px solid rgb(73, 149, 73); 
 		}
 
-		input:nth-child(6):valid {
+		input:nth-child(9):valid {
 			border:none;
 		}
 
