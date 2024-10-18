@@ -840,7 +840,8 @@ div {
 		display:grid;
 		gap: 1rem;
 		background-color: rgba(0, 0, 0, 0.024);
-		box-shadow: 6px 6px 6px 0px #0000000d;
+        border: 1px solid rgba(0, 0, 0, 0.185);
+        box-shadow: 6px 6px 6px 0px #0000003a;
 		border-radius: 1rem;
 		padding: 3rem;
 		margin-bottom: 3rem;
