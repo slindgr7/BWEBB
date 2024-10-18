@@ -85,26 +85,7 @@ header {
 }
 
 
-
-.ticket {
-	position: sticky;
-	top: 40%;
-	right: 50%;
-	width: 1.75rem;
-	transition: all 0.7s ease-in-out;
-}
-
-.ticket:hover {
-	border: 2px solid rgb(143 126 255 / 85%);
-	border-radius: 50%;
-	width: 3rem;
-	padding: 0.5rem;
-}
-
-
-
 main {
-	height: fit-content;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -230,6 +211,7 @@ main {
 	gap: 1.5rem;
 	padding: 1.5rem;
 	max-width: 800px;
+	
 
 		h2 {
 			font-size: 1.8rem;
@@ -242,13 +224,13 @@ main {
 			gap: 0.7rem;
 			margin-top: 1.8rem;
 			margin-bottom: 1.3rem;
+			background-color:rgba(143, 126, 255, 0.402);
+			border-radius: 50%;
 			
-		
 			span {
                 width: fit-content;
-                padding: 0.5rem 2rem 0.5rem 2rem;
-                background-color:rgba(143, 126, 255, 0.402);
-                border-radius: 2rem;
+				padding: 0.7rem 3rem 0.7rem 3rem;
+                border-radius: 0.5rem;
                 letter-spacing: 0.1rem;
                 font-size: 0.8rem;
 				font-weight: 600;
@@ -553,7 +535,7 @@ div {
 						margin-bottom: 1rem;
 					}
 				}
-				
+
 
 			}
 
