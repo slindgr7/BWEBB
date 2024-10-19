@@ -42,15 +42,14 @@ header {
 			span {
 				font-size: 3rem;
 			}
-		}
+		}	
 
-		p {
-			font-size: 0.7rem;
-			letter-spacing: 2px;
-		}
+	}
 
-	
-
+	p {
+		display: inline;
+		font-size: 0.7rem;
+		letter-spacing: 2px;
 	}
 
 
@@ -114,7 +113,7 @@ main {
 	}
 
 
-	div {
+	.links {
 		width:90%;
 		max-width: 30rem;
 		display: block;
